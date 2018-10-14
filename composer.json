@@ -7,18 +7,9 @@
         "cakephp/cakephp": "^3.5",
         "jdorn/sql-formatter": "^1.2"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7.14|^6.0"
-    },
     "autoload": {
         "psr-4": {
             "FormatQueryLogger\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FormatQueryLogger\\Test\\": "tests/",
-            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
     }
 }
