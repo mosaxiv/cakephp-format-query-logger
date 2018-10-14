@@ -18,13 +18,13 @@ class FormatQueryLogger extends QueryLogger
     {
         $rawQuery = $query->query;
 
-        if (!Log::getConfig('console-queries')) {
-            $query->query = PHP_EOL . \SqlFormatter::format($rawQuery, false) . PHP_EOL;
-            Log::write('debug', $query, ['scope' => 'queriesLog']);
+        if (Log::getConfig('console-queries')) {
+            $query->query = PHP_EOL . \SqlFormatter::format($rawQuery, true);
+            Log::write('debug', $query, ['scope' => 'highlight-queriesLog']);
         }
 
-        $query->query = PHP_EOL . \SqlFormatter::format($rawQuery, true);
-        Log::write('debug', $query, ['scope' => 'highlight-queriesLog']);
+        $query->query = PHP_EOL . \SqlFormatter::format($rawQuery, false) . PHP_EOL;
+        Log::write('debug', $query, ['scope' => 'queriesLog']);
     }
 
     /**
