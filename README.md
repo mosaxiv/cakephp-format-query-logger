@@ -1,5 +1,9 @@
 # FormatQueryLogger plugin for CakePHP
 
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
+</p>
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
