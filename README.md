@@ -2,8 +2,14 @@
 
 Format the query log.
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
+#  :fearful:
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image2.png">
+</p>
+
+# :smile:
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
 </p>
 
 ## Installation
