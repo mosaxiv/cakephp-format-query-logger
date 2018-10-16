@@ -1,5 +1,7 @@
 # FormatQueryLogger plugin for CakePHP
 
+Format the query log.
+
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
 </p>
