@@ -2,12 +2,12 @@
 
 Format the query log.
 
-#  :fearful:
+#  Default :fearful:
 <p align="center">
     <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image2.png">
 </p>
 
-# :smile:
+# Plugin :smile:
 <p align="center">
     <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
 </p>
