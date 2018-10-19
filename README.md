@@ -12,15 +12,15 @@ Format the query log.
     <img src="https://raw.githubusercontent.com/mosaxiv/cakephp-format-query-logger/master/image.png">
 </p>
 
+## Requirements
+
+* CakePHP3.5.0+
+
 ## Installation
 
 ```
 composer require mosaxiv/cakephp-format-query-logger
 ```
-
-## Requirements
-
-* CakePHP3.5.0+
 
 ## Usage
 
